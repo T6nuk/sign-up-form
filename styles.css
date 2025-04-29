@@ -1,0 +1,63 @@
+:root {
+  margin: 0;
+  padding: 0;
+  max-height: 100%;
+}
+body {
+  height: 100vh;
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background-color: rgb(43, 41, 41);
+}
+
+#container {
+  height: 80%;
+  width: 100%;
+  display: flex;
+}
+
+.left-side {
+  background-image: url("./img/dario-jud-4EvreRzmq44-unsplash.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 30%;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(23, 26, 23);
+  opacity: 30%;
+}
+.right-side {
+  background-color: rgb(240, 247, 244);
+  height: 100%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+label,
+input {
+  display: block;
+}
+
+.form,
+.info {
+  padding: 10px;
+}
+
+.form-row {
+  display: flex;
+}
+
+.form-row div {
+  width: 30%;
+  padding-bottom: 8px;
+}
