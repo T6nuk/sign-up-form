@@ -39,14 +39,28 @@
               </div>
               <div class="phone">
                 <label for="phone">PHONE NUMBER</label>
-                <input type="tel" name="phonenum" id="phone" />
+                <input
+                  type="tel"
+                  name="phonenum"
+                  id="phone"
+                  pattern="[0-9]{8}"
+                  placeholder="333-444-55"
+                />
               </div>
             </div>
 
             <div class="form-row">
               <div class="password">
                 <label for="password">PASSWORD</label>
-                <input type="password" name="password" id="password" />
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  minlength="8"
+                  maxlength="16"
+                  placeholder="8+ characters"
+                  required
+                />
               </div>
               <div class="confirm-password">
                 <label for="confirm-password">CONFIRM PASSWORD</label>
@@ -54,12 +68,16 @@
                   type="password"
                   name="confirm-password"
                   id="confirm-password"
+                  minlength="8"
+                  maxlength="16"
+                  placeholder="8+ characters"
+                  required
                 />
               </div>
             </div>
           </form>
 
-          <button type="submit" form="sign-up-form">Create account</button>
+          <button type="submit" form="sign-up-form">Create Account</button>
           <p>
             Already have an account? <span><a href="">Log in</a></span>
           </p>
