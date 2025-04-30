@@ -36,6 +36,16 @@ body {
   background-color: rgb(23, 26, 23);
   opacity: 10%;
 }
+
+.credit {
+  width: 100%;
+  position: absolute;
+  color: white;
+  bottom: 1%;
+  font-size: small;
+  text-align: center;
+  opacity: 50%;
+}
 .right-side {
   background-color: rgb(241, 241, 241);
   height: 100%;
